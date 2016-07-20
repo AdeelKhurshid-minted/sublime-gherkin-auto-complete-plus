@@ -81,21 +81,8 @@ Search for 'Gherkin Auto-Complete Plus'
 #### Mac OSX
 ``` bash
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-git clone https://github.com/austincrft/sublime-gherkin-auto-complete-plus.git "Gherkin Auto-Complete Plus"
+git clone https://github.com/AdeelKhurshid-minted/sublime-gherkin-auto-complete-plus.git "Gherkin Auto-Complete Plus"
 ```
-
-#### Linux
-``` bash
-cd ~/.config/sublime-text-3/Installed\ Packages
-git clone https://github.com/austincrft/sublime-gherkin-auto-complete-plus.git "Gherkin Auto-Complete Plus"
-```
-
-#### Windows
-``` bash
-cd "C:\Users\<user>\AppData\Roaming\Sublime Text 3\Installed Packages"
-git clone https://github.com/austincrft/sublime-gherkin-auto-complete-plus.git "Gherkin Auto-Complete Plus"
-```
-
 
 ## Credits
 The accompanied `*.tmLanguage` files were taken from [@drewda](https://github.com/drewda)'s [cucumber-sublime-bundle](https://github.com/drewda/cucumber-sublime-bundle) repository.
