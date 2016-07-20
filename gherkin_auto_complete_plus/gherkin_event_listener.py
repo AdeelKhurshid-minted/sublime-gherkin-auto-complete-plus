@@ -135,7 +135,7 @@ class GherkinEventListener(sublime_plugin.EventListener):
         :rtype: bool
         """
         file_name = view.file_name()
-        return file_name and file_name.endswith('.feature')
+        return file_name and file_name.endswith('.bdd')
 
     def _step_matches_line(self, step_words, line_words):
         """ Validates that words in step match words in line

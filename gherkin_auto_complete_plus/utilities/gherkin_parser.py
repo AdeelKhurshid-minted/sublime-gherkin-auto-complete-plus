@@ -30,7 +30,7 @@ class GherkinParser:
                 directory += '/'
 
             for root, dirnames, filenames in os.walk(directory):
-                for filename in fnmatch.filter(filenames, '*.feature'):
+                for filename in fnmatch.filter(filenames, '*.bdd'):
                     files.append(os.path.join(root, filename))
 
         return files
@@ -51,7 +51,7 @@ class GherkinParser:
         for file in files:
             close_file = False
             if not hasattr(file, 'read'):
-                file = open(file, encoding='utf-8')
+                file = open(file, encoding='utf-8', errors="replace")
                 close_file = True
 
             last_main_word = ''
